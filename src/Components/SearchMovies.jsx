@@ -12,11 +12,15 @@ function SearchMovies() {
   
   useEffect(() => {
   async function fetchMovies() {
-      let moviesList = await fetch('http://www.omdbapi.com/?apikey=37fe945a&s=' + search);
+    try {
+      let moviesList = await fetch('https://www.omdbapi.com/?apikey=37fe945a&s=' + search);
       moviesList = await moviesList.json()
       moviesList = moviesList.Search
       moviesList ? setMovies(moviesList) : setMovies([])
     }
+  catch(error) {
+    console.log(error)
+  }}
 fetchMovies()
 }, [search])
 

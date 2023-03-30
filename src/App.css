@@ -10,9 +10,13 @@ header {
   padding: 5rem;
 }
 
-
 header p {
   color: white
+}
+
+footer {
+  padding: 3rem;
+  background-color: whitesmoke
 }
 
 .card {

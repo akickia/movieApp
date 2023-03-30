@@ -1,6 +1,5 @@
 import './App.css'
-import DisplayMovies from './Components/DisplayMovies'
-import MovieCard from './Components/MovieCard'
+import Footer from './Components/Footer'
 import SearchMovies from './Components/SearchMovies'
 // import SearchMovies from './Components/SearchMovies'
 
@@ -14,6 +13,7 @@ function App() {
       <p>Sök filmer från OMDb API</p>
     </header> 
       <SearchMovies />
+      <Footer></Footer>
     </div>
   )
 }

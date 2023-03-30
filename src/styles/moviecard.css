@@ -3,6 +3,7 @@
     width: 100%;
     margin: 3%;
     box-shadow: 0 0 10px rgb(225, 225, 225);
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
