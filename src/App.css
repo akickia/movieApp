@@ -1,0 +1,21 @@
+#root {
+  text-align: center;
+  width: 100%
+}
+
+header {
+  background-image: url("https://cdn.pixabay.com/photo/2016/09/14/08/18/film-1668918_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+}
+
+
+header p {
+  color: white
+}
+
+.card {
+  padding: 2em;
+}
+

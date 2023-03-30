@@ -1,0 +1,13 @@
+.card {
+    max-width: 300px;
+    width: 100%;
+    margin: 3%;
+    box-shadow: 0 0 10px rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+  max-width: 100%;
+}

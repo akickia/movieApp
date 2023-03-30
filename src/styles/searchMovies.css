@@ -1,0 +1,15 @@
+.search-card {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+input {
+  margin: .5rem;
+  font-size: 1.5rem;
+  padding: .5rem;
+  color: gray
+}
